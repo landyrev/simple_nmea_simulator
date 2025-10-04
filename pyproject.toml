@@ -2,6 +2,7 @@
 name = "nmea-simulator"
 version = "0.1.0"
 description = "A TCP server that sends realistic NMEA messages with GPS route simulation"
+license = {text = "MIT"}
 authors = [
     {name = "Alexey Landyrev"}
 ]
