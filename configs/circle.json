@@ -1,0 +1,10 @@
+{
+    "host": "0.0.0.0",
+    "port": 10110,
+    "speed_knots": 5.0,
+    "route_type": "circle",
+    "center_lat": -33.8587,
+    "center_lon": 151.2140,
+    "radius_nm": 0.5,
+    "num_points": 8
+}

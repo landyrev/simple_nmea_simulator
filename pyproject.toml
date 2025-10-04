@@ -1,0 +1,24 @@
+[project]
+name = "nmea-simulator"
+version = "0.1.0"
+description = "A TCP server that sends realistic NMEA messages with GPS route simulation"
+authors = [
+    {name = "Alexey Landyrev"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "asyncio",
+]
+
+[project.scripts]
+nmea-simulator = "nmea_simulator.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/landyrev/nmea_simulator"
+Repository = "https://github.com/landyrev/nmea_simulator"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

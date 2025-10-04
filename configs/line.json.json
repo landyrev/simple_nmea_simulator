@@ -1,0 +1,10 @@
+{
+    "host": "0.0.0.0",
+    "port": 10110,
+    "speed_knots": 6.0,
+    "route_type": "line",
+    "start_lat": -33.8587,
+    "start_lon": 151.2140,
+    "end_lat": -33.8400,
+    "end_lon": 151.2200
+}
