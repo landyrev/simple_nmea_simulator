@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    ports:
+      - 10110:10110
+    volumes:
+      - .:/app
